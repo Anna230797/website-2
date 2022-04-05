@@ -1,0 +1,69 @@
+.action {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #e5e5e5;
+}
+.action_title {
+  text-align: center;
+  font-size: 14px;
+  color: #7e7e7e;
+}
+.action_subTitle {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 48px;
+}
+.action_fon {
+  margin-top: 41px;
+  background-image: url(./images/fon.png);
+  width: 1170px;
+  height: 512px;
+}
+.action_img {
+  text-align: center;
+  padding-top: 43px;
+}
+.data {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.action_list {
+  margin-top: 40px;
+  font-size: 18px;
+}
+.list_item {
+  margin-top: 14px;
+  font-size: 18px;
+}
+.action_numText {
+  font-size: 18px;
+}
+.action_numText p {
+  font-weight: bold;
+}
+.action_num {
+  margin-top: 12px;
+}
+.action_boxText {
+  font-size: 18px;
+}
+.action_boxText span {
+  font-weight: bold;
+}
+.action_links {
+  margin-top: 24px;
+  font-size: 18px;
+}
+.action_links p{
+padding-bottom: 10px;
+}
+.action_links a {
+  color: #00d36d;
+}
+.action_boxText2{
+    margin-top: 65px;
+    font-size: 12px;
+    opacity: 0.5;
+}

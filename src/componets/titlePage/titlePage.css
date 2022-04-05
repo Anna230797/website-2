@@ -1,0 +1,198 @@
+.titlePage {
+  background-color: #e5e5e5;
+  padding-bottom: 178px;
+}
+.title_item {
+  padding-top: 70px;
+  font-size: 48px;
+  text-align: center;
+}
+.titlePage_btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.titlePage_item {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.titlePage_item p{
+  padding: 0 24px;
+}
+.titlePage_check {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.titlePage_check input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #00D36D;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #fff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.titilePage_coupon {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.coupon_btn {
+  padding-top: 40px;
+  text-align: center;
+}
+.coupon_btn button {
+  padding: 10px 20px;
+  background-color: #00d36d;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+.coupon_btn a {
+  color: #fff;
+}
+.card_title {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.titlePage_cardImg {
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+.card_btn {
+  padding-top: 40px;
+  text-align: center;
+}
+.card_btn button {
+  padding: 10px 20px;
+  background-color: #00d36d;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+.card_btn a {
+  color: #fff;
+}
+.colls_box1 {
+  margin-top: 120px;
+  width: 680px;
+  height: 158px;
+  background-color: #fff;
+  border-radius: 79px;
+  display: flex;
+}
+.colls_item1 {
+  display: flex;
+  justify-content: center;
+}
+.colls_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.colls_text {
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 0px 0px 30px 30px;
+}
+.colls_text p {
+  text-align: center;
+  font-size: 16px;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.colls_item2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.colls_box2 {
+  margin-top: 120px;
+  width: 420px;
+  height: 158px;
+  background-color: #fff;
+  border-radius: 79px;
+  display: flex;
+}
+
+.colls_box3 {
+  margin-top: 120px;
+  width: 420px;
+  height: 158px;
+  background-color: #fff;
+  border-radius: 79px;
+  display: flex;
+}
+.colls_item4 {
+  display: flex;
+  justify-content: center;
+}
+.colls_box4 {
+  margin-top: 120px;
+  width: 680px;
+  height: 158px;
+  background-color: #fff;
+  border-radius: 79px;
+  display: flex;
+}
+.colls_container2{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

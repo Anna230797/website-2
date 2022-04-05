@@ -1,0 +1,15 @@
+
+
+.menu p{
+    padding-right: 20px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.menu a{
+    color: #000; 
+    opacity: 50%;
+    
+}
+.menu a:hover{
+    color: #000;
+}

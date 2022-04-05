@@ -1,0 +1,46 @@
+.AddressItem {
+  margin-top: 50px;
+  width: 377px;
+  height: 200px;
+  border: 1px dotted #000;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.AddressItem:hover{
+    border: 1px solid #00d36d;
+}
+
+.item_img {
+  display: flex;
+}
+.item_img p {
+  padding-top: 17px;
+}
+.item_img img {
+  padding: 15px 15px;
+}
+.item_add {
+  display: flex;
+  justify-content: space-evenly;
+}
+.metro1 {
+  display: flex;
+}
+.metro1 p {
+  margin-left: 10px;
+}
+.tel{
+    padding-top: 10px;
+    padding-left: 55px;
+}
+.grafik{
+    padding-top: 10px;
+    padding-left: 55px;
+}
+.add_link{
+    padding-top: 10px;
+    padding-left: 55px;
+}
+.add_link a{
+    color: #00d36d;
+}
